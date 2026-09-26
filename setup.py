@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="dnsl",
+    name="scdns",
     version="1.0.0",
-    author="Ibrahem abo kila",
-    author_email="ibrahemabokila@gmail.com",
+    author="Silent Cobra",
+    author_email="********@gmail.com",
     description="Advanced DNS Lookup Tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/hemaabokila/dns_lookup",
+    url="https://github.com/silentcobrac4/scdns",
     packages=find_packages(),
     install_requires=[
         "dnspython",
