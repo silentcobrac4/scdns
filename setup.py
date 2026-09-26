@@ -22,7 +22,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "scdns=dnslookup.main:main",
+            "scdns=dnslookup.dnsl_sc:main",
         ],
     },
     classifiers=[
